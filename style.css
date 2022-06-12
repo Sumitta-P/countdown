@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./heart-drawn-water.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+
+    color: rgb(115, 40, 143);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.items {
+   display: inline-flex;
+   margin: 1rem;
+   padding: .5rem;
+   font-size: 1.5rem;
+}
+
+.countdown {
+    padding: 1rem;
+}
+
+.countdown span {
+    margin: .5rem;
+}
+
+
+
